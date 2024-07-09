@@ -4,17 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
         String [] fruits = {"Apple", "Banana", "Orange", "Grape"};
-        int index=0;
+        int i=0;
         int length=fruits.length;
-        boolean value= false;
-        do {
-            System.out.println("The value of the:"+ fruits[index]);
-            System.out.println("iam in the loop ");
-            index++;
-
+        for (i=0;i<=10;i++){
+            System.out.println(i);
         }
 
-     while(length>index);
      System.out.println("iam out side the loop ");
 
     }
