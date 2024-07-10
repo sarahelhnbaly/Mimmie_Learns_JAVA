@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.mimmie_learns.java;
 
 public class Main {
 
