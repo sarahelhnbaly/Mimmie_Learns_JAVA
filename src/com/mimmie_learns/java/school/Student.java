@@ -6,7 +6,7 @@ public class Student {
 
     public Teacher getClassTeacher() {
         Teacher teacher = new Teacher();
-        teacher.teacherName="Sarah";
+        teacher.teach("Sarah");
         return teacher;
     }
 
