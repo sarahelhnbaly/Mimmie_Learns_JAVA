@@ -9,7 +9,7 @@ public class Books {
 
     public Teacher bookTeacher(){
         Teacher teacher = new Teacher();
-        teacher.teacherName="Sarah";
+        teacher.setTeacherName("Sarah");
         return teacher;
 
 
