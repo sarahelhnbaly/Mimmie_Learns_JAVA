@@ -1,18 +1,18 @@
 package com.mimmie_learns.java.abstracrexample;
 
+
 public class Rectangle extends Shape {
-    private double base;
+    private double width;
     private double height;
 
-    public Rectangle(double base, double height) {
-        this.base = base;
+    public Rectangle(double width, double height) {
+        this.width = width;
         this.height = height;
-
     }
+
     @Override
-    public void calculateArea() {
-        double area = base * height;
-        System.out.println("Area of Rectangle: " + area);
+    public double calculateArea() {
+        return width * height;
     }
-
 }
+

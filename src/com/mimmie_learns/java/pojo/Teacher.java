@@ -1,11 +1,10 @@
 package com.mimmie_learns.java.pojo;
 
-package com.mimmie_learns.java.pojo;
-
 public class Teacher extends Employee{
     private String teachingSubject;
+    private String name;
 
-     @Override
+    @Override
     public void workHour(int hours) {
         System.out.println("Teacher work hour: " + hours);
     }
@@ -15,12 +14,22 @@ public class Teacher extends Employee{
         return "Your teaching subject is: " + teachingSubject;
     }
 
-    // Suggested to add a setter for teachingSubject
     public void setTeachingSubject(String teachingSubject) {
         this.teachingSubject = teachingSubject;
     }
-}
 
+    public String getTeacherName() {
+        return name;
+    }
+
+    public void setTeacherName(String name) {
+        this.name = name;
+    }
+
+    public void teach() {
+        System.out.println("Teacher " + name + " is teaching.");
+    }
+}
 
 
 
