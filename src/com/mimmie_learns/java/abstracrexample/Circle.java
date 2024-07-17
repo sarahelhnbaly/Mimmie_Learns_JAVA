@@ -1,7 +1,9 @@
 package com.mimmie_learns.java.abstracrexample;
 
 
-public class Circle extends Shape {
+import com.mimmie_learns.java.interfaces.IShape;
+
+public class Circle implements IShape {
     private double radius;
 
     public Circle(double radius) {
@@ -9,7 +11,13 @@ public class Circle extends Shape {
     }
 
     @Override
-    public double calculateArea() {
+    public double getArea() {
         return Math.PI * radius * radius;
+    }
+
+    @Override
+    public void printName() {
+        System.out.println("Circle");
+
     }
 }

@@ -10,8 +10,8 @@ public class Trapedzoid extends Shape {
         this.height = height;
     }
     @Override
-    public void calculateArea() {
-        return((base1+base2)/2)*height;
-
-
+    public double calculateArea() {
+        double area = ((base1 + base2) / 2) * height;
+        return area;
+    }
 }
