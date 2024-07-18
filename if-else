@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Calculator {
+    public Calculator() {
+        System.out.println("This is Calculator");
+    }
+
+    public Calculator(int a) {
+        System.out.println("This is another constructor");
+    }
+
+    public Calculator(double c) {
+        System.out.println("This is yet another constructor");
+    }
+
+    public int add(int value1, int value2) {
+        int sum = value1 + value2;
+        System.out.println("Sum: " + sum);
+        return sum;
+    }
+
+    public double add(double value1, int value2) {
+        double sum = value1 + value2;
+        System.out.println("Sum: " + sum);
+        return sum;
+    }
+
+    public int add(int value1, int value2, int value3) {
+        int sum = value1 + value2 + value3;
+        System.out.println("Sum: " + sum);
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter your age:");
+        int age = obj.nextInt();
+
+        if (age > 18) {
+            System.out.println("You are above 18");
+        } else if (age == 18) {
+            System.out.println("You are 18");
+        } else {
+            System.out.println("You are a kid");
+        }
+    }
+}
