@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Application {
+    // This is the entry point of the program
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+
+        System.out.println("Enter your name:");
+        String name = obj.nextLine();
+
+        System.out.println("Enter your age:");
+        int age = obj.nextInt();
+
+        System.out.println("Your name is: " + name);
+        System.out.println("Your age is: " + age);
+    }
+}
