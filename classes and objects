@@ -1,0 +1,36 @@
+public class Application {
+    public static void main(String[] args) {
+        Test object = new Test();
+        object.age = 10;
+
+        Test object2 = new Test();
+    }
+}
+
+class Test {
+    int age;
+    String message;
+
+    public Test() {
+        System.out.println("I am in constructor");
+    }
+
+    public Test(int value) {
+        this.age = value;
+        System.out.println("I am setting age");
+    }
+}
+
+class Calculator {
+    int age;
+    String message;
+
+    public Calculator() {
+        System.out.println("I am in constructor");
+    }
+
+    public Calculator(int value) {
+        this.age = value;
+        System.out.println("I am setting age");
+    }
+}
