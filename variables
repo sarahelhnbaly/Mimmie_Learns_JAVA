@@ -1,0 +1,22 @@
+public class Test {
+    String message; // Declaring instance variable 'message'
+    int age; // Declaring instance variable 'age'
+    int height; // Declaring instance variable 'height'
+
+    public static void main(String[] args) {
+        Test testObject = new Test(); // Creating an instance of the Test class
+        Test testObject1 = new Test(); // Creating another instance of the Test class
+
+        testObject.message = "hello from Test-1";
+        testObject1.message = "hello from Test-2";
+
+        testObject.age = 20;
+        testObject1.age = 18;
+
+        testObject.height = 20;
+        testObject.height = 18;
+
+        System.out.println(testObject.message); // Printing the message of testObject
+        System.out.println(testObject1.message); // Printing the message of testObject1
+    }
+}
