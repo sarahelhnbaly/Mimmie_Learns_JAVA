@@ -1,13 +1,13 @@
 public class Application {
-//this is main method
-public static void main (String[] args) {
-String fruits
-[][] = { {"Mango", "Banana"}, {"Apple", "Orange", "Berry"*};
-int
-weekNumber [] = 11,2,3,4,5,6,7};
-int lengthOfFruit = fruits.length;
-System.out.println(lengthOfFruit);
-String fruitil] = fruitslod;
-System.out.println(fruit1[0]);
-System.out.println(fruits[1][0]);
-System.out.println(fruit1.length);
+    // this is the main method
+    public static void main(String[] args) {
+        String[][] fruits = { {"Mango", "Banana"}, {"Apple", "Orange", "Berry"}};
+        int[] weekNumber = {1, 2, 3, 4, 5, 6, 7};
+        int lengthOfFruit = fruits.length;
+        System.out.println(lengthOfFruit);
+        String[] fruit1 = fruits[0];
+        System.out.println(fruit1[0]);
+        System.out.println(fruits[1][0]);
+        System.out.println(fruit1.length);
+    }
+}
