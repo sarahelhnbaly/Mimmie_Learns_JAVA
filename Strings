@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Application {
+    // This is the main method
+    public static void main(String[] args) {
+        String s = "";
+        String name = "Ashutosh";
+        String name2 = "Ashutosh";
+        String name3 = new String("Ashutosh");
+        String newName = new String("Ashutosh");
+    }
+}
