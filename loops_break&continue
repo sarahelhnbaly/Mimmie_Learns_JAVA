@@ -1,0 +1,21 @@
+public class Application {
+    // This is the main method
+    public static void main(String[] args) {
+        String[] fruits = {"Mango", "Banana", "Apple", "Orange"};
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+        System.out.println("I am outside of the for-each loop");
+
+        String[] ll = {"Mango", "Banana", "Apple", "Orange"};
+        boolean val = true;
+        for (int i = 0; i < 5; i++) {
+            if (i == 3) {
+                break;
+            }
+
+            System.out.println(i);
+        }
+        System.out.println("I am outside of the for-each loop");
+    }
+}
