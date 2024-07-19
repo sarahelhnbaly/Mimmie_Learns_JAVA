@@ -1,0 +1,20 @@
+public class NestedLoopsExample {
+    public static void main(String[] args) {
+        int[][] twoDArray = new int[3][4]; // Creating a 2D array with 3 rows and 4 columns
+
+        // Nested loop to initialize and print the elements of the 2D array
+        for (int i = 0; i < 3; i++) { // Outer loop for rows
+            for (int j = 0; j < 4; j++) { // Inner loop for columns
+                twoDArray[i][j] = i * 10 + j; // Initializing the element
+            }
+        }
+
+        // Nested loop to print the elements of the 2D array
+        for (int i = 0; i < 3; i++) { // Outer loop for rows
+            for (int j = 0; j < 4; j++) { // Inner loop for columns
+                System.out.print(twoDArray[i][j] + " "); // Printing the element
+            }
+            System.out.println(); // Moving to the next line after each row
+        }
+    }
+}
