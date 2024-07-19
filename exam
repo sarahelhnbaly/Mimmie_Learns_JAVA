@@ -1,0 +1,272 @@
+### Algorithms
+
+Algorithms are manyfold and Java can be used to program these. Examples are sorting or search strategies but also mathematical calculations. Please refer to **two** areas in either your regular coding practice or within your project, where you have coded an algorithm. Do not make reference to code written for other classes, like theoretical informatics.
+
+*your text*
+sorting:https://github.com/sarahelhnbaly/data_str.
+loops :https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/main/NestedLoopsExample
+if -else stament :
+https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/main/if-else
+wrapper  :
+https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/main/Wrapper%20data%20type%20and%20AutoBoxing
+
+
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|           2            |                               |
+|           2            |                               |
+
+
+
+
+
+### Data types
+
+Please explain the concept of data types and provide examples of different data types in Java.
+Typical data types in java are int, double, float, char, boolean, long, short, byte, String, and arrays. Please provide one example for each of the **three** following data types in your code. One of these links must be to your project.
+
+Regarding the link to your project, explain the context in which you have used this data type being specific to your project. 
+
+*your text*:
+* Array:arrays: https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/main/arrays
+* Strings:https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/main/Strings
+* boolean: https://github.com/sarahelhnbaly/Mimie_Learns_JAVA/blob/main/LinkedListQueue
+
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|           1            |                               |
+|           1           |                               |
+|           2 (project link)          |                               |
+
+
+
+
+
+### Complex Data Structures
+
+Examples of complex data structures in Java are ArrayList, HashMap, HashSet, LinkedList, and TreeMap. Please provide an example of how you have used **two** of these complex data structures in your code and explain why you have chosen these data structures. Examples do not have to come from the project.
+
+*your text*
+ArrayList://github.com/sarahelhnbaly/Mimie_Learns_JAVA/blob/main/LinkedListQueue
+HashMap:https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/master/src/com/mimmie_learns/java/pojo/Person.java
+Person objects are stored in hashmaps using the name of the person as the key. This is consistent with the Person class, which overrides hashCode() and equals() based on the age and name of the person.
+Person objects are added to an ArrayList in an ordered list format, much like the ArrayList data structure.
+This example shows how to utilize the custom equals() and hashCode() implementations for object comparison and hashing based on name and age with the Person class with HashMap and ArrayList.
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|           2            |                               |
+|           2            |                               |
+
+
+
+### Concepts of OOP
+Concepts of OOP are the basic building blocks of object-oriented programming, such as classes, objects, methods, and attributes. 
+Explain HOW and WHY your **project** demonstrates the use of OOP by using all of the following concepts:
+* Classes/Objects:
+* Methods
+* Attributes 
+Link to the code in your project that demonstrates what you have explained above.
+
+*your text*
+Methods :
+https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/master/src/com/mimmie_learns/java/calculater/Calculator.java
+https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/tree/master/src/com/mimmie_learns/java/school
+  public String teacherName = TeacherFunction(String): It looks that the purpose of public String teacherName = TeacherFunction(String): It looks that the purpose ofof this method is to construct the TeacherFunction class. It takes in a teacherName parameter, builds a Teacher object, then uses the Teacher class's setTeacherName() function to set the teacher's name; however, it returns nothing.
+public void teacherName(String): This function prints a message indicating that the instructor is teaching and sets the name property (which may be deleted) to the supplied teacherName.
+Student-Function class:
+
+public TeacherFunction getClassTeacher(): This function takes in an object TeacherFunction, calls the teach("Sarah") method on it, and returns the TeacherFunction object that was generated.
+
+chasses and objects :https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/main/classes%20and%20objects
+In this example, the main method of the Application class creates objects of the Calculator class (calc), and the Test class (object and object2).
+Attributes :the same example ubove :https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/main/classes%20and%20objectsint age: An integer property used to indicate how old a Test class object is.
+String message: A message can be stored in a String attribute.
+Class of Calculators:
+
+Qualities: 
+int age: An integer property used to indicate an object's age within the Calculator class.
+String message: A message can be stored in a String attribute.
+While the message attribute is defined in the provided code sample but not populated or used, it is used in the Test and Calculator classes to store an object's age.
+
+
+### OO Design
+Please showcase **two** areas **where** you have used object orientation in your project. (How and why you use it will be the next question below.)
+Examples in Java of good oo design are composition, encapsulation, inheritance, polymorphism, and abstraction. 
+
+*your text*
+ user extended from Person (inherited):
+https://github.com/sarahelhnbaly/Auction2024/blob/master/src/Users.java
+ how:The Person class is extended by the Users class, which inherits its methods and attributes. As a result, Users are able to access and make use of the behavior mentioned in Person.
+why:The rationale behind its usage Common user-related features and attributes are defined in the Person class and inherited by the Users class through inheritance. This keeps the class hierarchy tidy and encourages code reuse.
+Encapsulation:(Public Methods and Private Fields in BidItem):
+
+Use: The fields itemName and initialAmount in the BidItem class are defined as private, encapsulating the internal state of a bid item. Controlled access to these private data is provided by public methods such as getName(), getInitialAmount(), registerItem(), and getListItem().
+The rationale behind its usage Data concealing is enforced by encapsulation, which permits regulated access to an object's internal state. The internal details of a bid item are concealed and made accessible through clearly defined interfaces by encapsulating the fields and offering open methods for interaction.
+
+https://github.com/sarahelhnbaly/Auction2024/blob/master/src/BidItem.java
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|              3         |                               |
+|              3         |                               |
+
+
+
+### Advanced Class Concepts
+Advanced class concepts include constructors, abstract classes, interfaces, access modifiers, static methods, and variables. Please provide an example of how you have used **two** of these class concepts in your **project** code and explain why you have chosen these class concepts and how they work within your code.
+
+*your text*:the same link above :
+Constructors ( in the Users and BidItem classes):
+How it's used: When objects are created, the BidItem and Users classes employ constructors to initialize them with certain values. Both classes provide parameterized constructors that set values based on input arguments for fields as well as default constructors that initialize fields.
+Constructors (found in the Users and BidItem classes):
+
+why it's used: When objects are created, the BidItem and Users classes employ constructors to initialize them with certain values. Both classes provide parameterized constructors that set values based on input arguments for item or user creation, in addition to default constructors that initialize fields.
+Utilized in the BidItem and Users classes are static methods:
+How to utilize it: The BidItem and Users classes use static methods to achieve particular features. For instance, the getListItem() method of the BidItem class returns the list of bid items and is static. In a similar vein, the Users class's static getUserList() function yields a list of users.
+The rationale behind its usage Static methods can be called without first constructing an object because they are not associated with a particular instance of the class. In the project, object instantiation is not necessary because static methods are used to access and alter shared data (item lists, user lists) across all instances of the class.
+
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|            4           |                               |
+|            4           |                               |
+
+### Testing
+Java code is tested by using JUnit. Please explain how you have used JUnit in your project and provide a link to the code where you have used JUnit. Links do not have to refer to your project and can refer to your practice code. If you tested without JUnit, please explain how you tested your code.
+Be detailed about what you are testing and how you argue for your test cases. 
+Test cases usually cover the following areas:
+* boundary cases
+* normal cases
+* error cases / catching exceptions 
+e
+
+*your text*:rror cases :
+https://github.com/sarahelhnbaly/Auction2024/blob/master/src/BidItem.java
+To handle exceptions that can arise during user input, the BidItem class's registerItem() method employs a try-catch block. The error message "Error in entering the bid item" appears on screen if an exception is detected.
+https://github.com/sarahelhnbaly/Auction2024/blob/master/src/Driver.java
+User input exceptions are also caught by the Users class's registerUsers() function. The program prints "Error in entering user data" and decrements i to handle the error if an exception arises when entering user data.
+https://github.com/sarahelhnbaly/Auction2024/blob/master/src/Users.java
+ the main method in the Driver class :The main method in the Driver class the user input  a scanner and uses try-catch blocks to  input errors or exceptions that may arise during the bidding process.
+ the code has also error messages for certain conditions, such as when the amount is less than the initial amount for the selected item.
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|            6           |                               |
+
+### Operator/Method Overloading
+An example of operator overloading is the "+" operator that can be used to add two numbers or concatenate two strings. An example of method overloading is having two methods with the same name but different parameters. Please provide an example of how you have used operator or method overloading in your code and explain why you have chosen this method of coding.
+The link does not have to be to your project and can be to your practice code.
+
+*your text*
+https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA/blob/master/src/com/mimmie_learns/java/calculater/Calculator.java
++ add  method :
+public int add(int value1, int value2)
+public double add(double value1, int value2)
+public int add(int value1, int value2, int value3)
+
+ flexibility to perform  operations,  add various data types and numbers of values together.
+
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|            6            |                               |
+
+
+
+### Generics
+Generics in java are used to create classes, interfaces, and methods that operate on objects of specified types. Please provide an example of how you have used generics in your code and explain why you have chosen to use generics. The link does not have to be to your project and can be to your practice code.
+
+*your text*
+https://github.com/sarahelhnbaly/Generic
+
+
+
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|            6           |                               |
+
+### Class Libraries
+Examples of class libraries in java are the Java Standard Library, JavaFX, Apache Commons, JUnit, Log4j, Jackson, Guava, Joda-Time, Hibernate, Spring, Maven, and many more. Please provide an example of how you have used a class library in your **project** code and explain why you have chosen to use this class library. 
+
+*your text*
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|             6           |                               |
+
+### Multi-threading
+multi-threading is the ability of a CPU to execute multiple processes or threads concurrently. Please explain the concept of multi-threading and provide an example of how you have used multi-threading in your code. The link does not have to be to your project and can be to your practice code.
+
+
+*your text*
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|            6           |                               |
+
+
+
+
+### Lambda Expressions
+An example of a lambda expression is the following code: 
+```java
+List<String> list = new ArrayList<>();
+list.forEach((String s) -> System.out.println(s));
+```
+Please explain the concept of lambda expressions and provide an example of how you have used lambda expressions in your code. The link does not have to be to your project and can be to your practice code.
+
+*your text*
+Lambda express the unknown functions and methods without add new ones.
+here forEach and ((String s) in the System.out.println used  -> for Lambda expression.
+to have at the end the even numbers as result
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|           6            |                               |
+
+
+### Serialization
+
+Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. Please explain why you would use serialization and provide an example of how you have used serialization in your code. The link does not have to be to your project and can be to your practice code.
+
+
+*your text*
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|             6          |                               |
+
+
+### Database Connectivity
+Web applications use databases to store data. Please explain how you have connected to a database in your project and provide an example of how you have used database connectivity in your code. The link does not have to be to your project and can be to your practice code. Do not use code from other classes, like database programming, Web Engineering, or theoretical informatics.
+This topic appeared in your learning agreement as the last point in the table under advanced topics.
+
+*your text*
+https://github.com/sarahelhnbaly/Auction2024/blob/master/src/Users.java
+The code  connects to a database using then  prepares a statement to insert new users into a users table. as aloop, it collects user information name..... and uses it to insert each user database .
+
+
+
+| Total Achievable Points | Points Reached During Grading |
+|------------------------|-------------------------------|
+|                        |                               |
+|            6            |                               |
+
+for sourse :https://github.com/sarahelhnbaly/Mimmie_Learns_JAVA
+https://github.com/sarahelhnbaly/Generic
+
+
+
+
+
+
+
