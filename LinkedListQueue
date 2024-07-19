@@ -1,0 +1,70 @@
+  public class LinkedListQueue<T> implements MyQueue<T> {
+        private NodeDouble<T> head;
+        private NodeDouble<T> tail;
+
+        public LinkedListQueue() {
+            this.head = null;
+            this.tail = null;
+        }
+
+        public class NodeDouble<L> {
+            private L value;
+            private NodeDouble<L> next;
+            private NodeDouble<L> prev;
+
+            public NodeDouble(L value) {
+                this.value = value;
+                this.next = null;
+                this.prev = null;
+            }
+        }
+
+        public void add(T elm) {
+            NodeDouble<T> newNode = new NodeDouble<>(elm);
+            if (this.head != null) {
+                this.head.prev = newNode;
+            }
+            newNode.next = this.head;
+            this.head = newNode;
+            if (this.tail == null) {
+                this.tail = this.head;
+            }
+        }
+
+        public T remove() {
+            if (this.head == null) {
+                return null;
+            }
+            T elm = this.tail.value;
+            if (this.head == this.tail) {
+                this.head = null;
+                this.tail = null;
+            } else {
+                this.tail = this.tail.prev;
+                this.tail.next = null;
+            }
+            return elm;
+        }
+
+        public T peek() {
+            if (this.head == null) {
+                return null;
+            }
+            return this.tail.value;
+        }
+
+        public boolean isEmpty() {
+            if (this.head == null) {
+                return true;
+            }
+            return false;
+        }
+
+        public String toString() {
+            String nodeStr = "";
+            for (NodeDouble<T> node = this.head; node != null; node = node.next) {
+                nodeStr += node.value + " ";
+            }
+            return nodeStr;
+        }
+    }
